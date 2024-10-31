@@ -1,0 +1,60 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=ABeeZee:400|Inter:var(--body-base-font-weight),var(--body-strong-font-weight)");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: "Yekan Bakh-Fat";
+  src: url("https://anima-uploads.s3.amazonaws.com/59edd40adc6a1e000b1ebdb4/Yekan-Bakh-EN-08-Fat.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Estedad-Thin";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/615437c8f03791bcf9c59f88/fonts/estedad-thin.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Estedad-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/615437c8f03791bcf9c59f88/fonts/estedad-bold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Yekan Bakh-Heavy";
+  src: url("https://anima-uploads.s3.amazonaws.com/59edd40adc6a1e000b1ebdb4/Yekan-Bakh-EN-07-Heavy.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Yekan Bakh-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/5d6a609397ac03b9cb7752ed/Yekan Bakh EN 06 Bold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Yekan Bakh-Medium";
+  src: url("https://anima-uploads.s3.amazonaws.com/5d6a609397ac03b9cb7752ed/Yekan Bakh EN 05 Medium.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Yekan Bakh-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/5d6a609397ac03b9cb7752ed/Yekan Bakh EN 04 Regular.ttf")
+    format("truetype");
+}
