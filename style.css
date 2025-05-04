@@ -1,10 +1,9 @@
-
-.line{
+.line {
   position: absolute;
   bottom: 0rem;
   z-index: 11;
   margin: 0rem;
-  visibility: hidden; 
+  visibility: hidden;
 }
 
 .desktop {
@@ -187,10 +186,11 @@
   flex-direction: column;
   /* left: 0; */
 
-  transition: background-color 0.3s ease; /* Smooth transition */
+  transition: background-color 0.3s ease;
+  /* Smooth transition */
 }
 
-.header.scrolled {  
+.header.scrolled {
   background-color: #ffffffaf;
   backdrop-filter: blur(10px) brightness(100%);
   -webkit-backdrop-filter: blur(10px) brightness(100%);
@@ -316,11 +316,13 @@
   overflow: hidden;
   border: 1px solid;
   border-color: #000000;
-  
+
 }
+
 .button_login:hover {
   background-color: #ffffff;
-  transition: background-color 0.3s ease; /* Smooth transition */
+  transition: background-color 0.3s ease;
+  /* Smooth transition */
 
 }
 
@@ -1711,8 +1713,16 @@
   border-color: #000000;
 }
 
-.nav-container, .button_download, .language-switcher {
+.nav-container,
+.button_download,
+.language-switcher {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-container{
+    display: none;
+  }
 }
