@@ -1722,7 +1722,9 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .nav-container{
-    display: none;
+
+  .nav-container,
+  .button_login {
+    visibility: hidden;
   }
 }
